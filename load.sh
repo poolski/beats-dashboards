@@ -8,7 +8,7 @@
 
 # The default value of the variable. Initialize your own variables here
 ELASTICSEARCH=http://localhost:9200
-CURL=curl --globoff
+CURL="curl --globoff"
 KIBANA_INDEX=".kibana"
 
 print_usage() {
